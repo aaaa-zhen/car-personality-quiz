@@ -10,10 +10,10 @@ const questions = [
   {
     title: "周末你最可能在做什么？",
     options: [
-      { text: "研究数码新品或刷科技资讯", w: { tech: 3, individuality: 1 } },
-      { text: "陪家人逛超市或做顿饭", w: { family: 3, comfort: 1, conservatism: 1 } },
-      { text: "和朋友去网红餐厅打卡", w: { aesthetics: 2, status: 1, individuality: 1 } },
-      { text: "在车库里研究改装或跑山路", w: { driving: 3, individuality: 1 } }
+      { text: "宅家充电——刷视频、打游戏、研究新玩意儿", w: { tech: 2, comfort: 1, individuality: 1 } },
+      { text: "陪家人或朋友，吃饭聊天逛个街", w: { family: 2, comfort: 1, conservatism: 1 } },
+      { text: "出门探店、看展、拍照发朋友圈", w: { aesthetics: 2, status: 1, individuality: 1 } },
+      { text: "动起来——健身、户外、骑车或自驾兜风", w: { driving: 2, individuality: 1, presence: 1 } }
     ]
   },
   {
@@ -44,12 +44,12 @@ const questions = [
     ]
   },
   {
-    title: "你最受不了一辆车哪一点？",
+    title: "如果只能忍一个，你最能接受车的哪个缺点？",
     options: [
-      { text: "车机卡顿，交互反人类", w: { tech: 3, aesthetics: 1 } },
-      { text: "花里胡哨但不实用", w: { practicality: 3, conservatism: 1 } },
-      { text: "太普通，开出去没记忆点", w: { individuality: 2, presence: 1, driving: 1 } },
-      { text: "太软，没有气场和存在感", w: { presence: 3, status: 1 } }
+      { text: "车机一般，但机械素质靠谱", w: { driving: 2, conservatism: 1, practicality: 1 } },
+      { text: "动力普通，但空间大配置全", w: { family: 2, practicality: 1, comfort: 1 } },
+      { text: "外观普通，但省心耐用不操心", w: { conservatism: 2, practicality: 2 } },
+      { text: "品牌小众，但设计独特有个性", w: { individuality: 2, aesthetics: 2 } }
     ]
   },
   {
@@ -57,7 +57,7 @@ const questions = [
     options: [
       { text: "沿海公路劈弯，享受驾驶乐趣", w: { driving: 3, individuality: 1 } },
       { text: "带全家去郊外农庄放松", w: { family: 3, comfort: 1 } },
-      { text: "城市巡游，感受街头目光", w: { aesthetics: 2, status: 1, presence: 1 } },
+      { text: "找条网红公路或小众目的地，边开边拍", w: { aesthetics: 2, status: 1, individuality: 1 } },
       { text: "高速直奔另一座城市办事", w: { practicality: 2, status: 1, comfort: 1 } }
     ]
   },
@@ -85,7 +85,7 @@ const questions = [
       { text: "日子稳稳的，舒服最重要", w: { comfort: 2, conservatism: 2 } },
       { text: "城市精致生活，有风格有氛围", w: { aesthetics: 2, individuality: 1, tech: 1 } },
       { text: "事业在上升，资源、体面都在变好", w: { status: 3, presence: 1 } },
-      { text: "活得更锋利一点，不想太平幸", w: { driving: 2, individuality: 2 } }
+      { text: "不甘平庸，想活出自己的节奏和态度", w: { driving: 2, individuality: 2 } }
     ]
   },
   {
